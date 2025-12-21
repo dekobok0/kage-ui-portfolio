@@ -1,0 +1,33 @@
+# 環境変数
+.env
+.env.local
+.env.production
+.env.*.local
+# ビルド成果物
+.next/
+out/
+build/
+dist/
+
+# 依存関係
+node_modules/
+
+# ログファイル
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS固有ファイル
+.DS_Store
+Thumbs.db
+
+# IDEファイル
+.vscode/
+.idea/
+
+# テストカバレッジ
+coverage/
+
+# Supabase（ローカル開発用）
+.supabase/
